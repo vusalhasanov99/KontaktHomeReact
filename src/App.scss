@@ -1,0 +1,1264 @@
+.App {
+  background-color: rgba(236, 235, 235, 0.842);
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+
+  .kontakthome {
+    text-align: center;
+
+    .container {
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      display: flex;
+      border: 1px solid rgb(133, 133, 133);
+      border-radius: 7px;
+
+
+      .endirim {
+        border-right: 1px solid rgb(133, 133, 133);
+
+        a {
+          text-decoration: none;
+          color: black;
+
+
+        }
+
+        a:hover {
+          color: red;
+          text-decoration: underline solid;
+        }
+
+      }
+
+      .ayliqodenis {
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+
+        a:hover {
+          color: red;
+          text-decoration: underline solid;
+        }
+      }
+    }
+
+    .navbar {
+      span {
+        height: 30px;
+        border: 1px solid rgb(218, 216, 216);
+      }
+
+      .menyu {
+        cursor: pointer;
+      }
+
+      .search {
+
+
+        input {
+          width: 600px;
+          height: 40px;
+          border-radius: 40px;
+          border: none;
+          outline: none;
+
+          background-color: white;
+          padding-left: 35px;
+
+
+        }
+
+        .fa-search {
+
+          transform: translate(150%);
+
+
+        }
+      }
+
+      .countrylounge {
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      i {
+        cursor: pointer;
+      }
+
+
+
+    }
+
+
+
+  }
+
+
+
+  .overflow {
+    margin: 20px;
+    height: 250px;
+    width: 260px;
+    overflow: auto;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 10px;
+    background-color: white;
+
+
+
+    .phones {
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+      margin: 10px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+    }
+
+    .watches {
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+      margin: 10px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+    }
+
+    .tv {
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+      margin: 10px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+    }
+
+    .computers {
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding-left: 12px;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    border-radius: 100px;
+
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+
+  }
+
+
+
+
+  .container {
+    .carousel-inner {
+      display: flex;
+
+      .item {
+        display: flex;
+
+        .it {
+          padding-left: 20px;
+        }
+
+      }
+    }
+  }
+
+
+  .overflow21 {
+
+    transform: translate(0%,-9999999%);
+    height: 250px;
+    width: 260px;
+    overflow: auto;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 10px;
+
+
+
+    .smartphones {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          border: none;
+
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .plansetler {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .qulaqliqlar {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .e-books {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          padding-left: 1px;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .home-phones {
+      height: 33px;
+      margin: 11px;
+      margin-left: 30px;
+
+      a {
+
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+
+          padding-left: 1px;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .numbers {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding-left: 1px;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+  }
+
+  .overflow22 {
+
+    transform: translate(0%,-99999999%);
+    height: 250px;
+    width: 260px;
+    overflow: auto;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 10px;
+
+
+
+    .SmartWhatces {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          border: none;
+
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .SmartBracelet {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .Whatches {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          border-bottom: 1px solid #d8d8d8;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .ChildrensWhatches {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          padding-left: 1px;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .Accessories {
+      height: 33px;
+      margin: 11px;
+      margin-left: 30px;
+
+      a {
+
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+
+          padding-left: 1px;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+
+  }
+
+  .hover {
+    transform: translate(-50%);
+    display: flex;
+  }
+
+  .tabs {
+    border-top: 2px solid rgb(218, 216, 216);
+    border-bottom: 2px solid rgb(218, 216, 216);
+
+    button {
+      border: none;
+      height: 60px;
+      margin-left: 120px;
+
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    background-color: #1c1c1c;
+
+    .foot1 {
+
+      display: flex;
+
+      h5 {
+        margin-left: 20px;
+        color: white;
+      }
+
+      ul {
+        margin-top: 50px;
+
+        li {
+          margin-top: 10px;
+          list-style: none;
+
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+
+    .foot2 {
+      display: flex;
+
+      input {
+        margin-left: 50px;
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+      }
+
+      button {
+
+
+        background-color: rgb(99, 87, 87);
+        height: 50px;
+        width: 150px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 10px;
+
+
+        &:hover {
+          transition-duration: 0.3s;
+          background-color: red;
+        }
+
+
+        span {
+          color: white;
+        }
+      }
+
+      h2 {
+        margin: 50px;
+        color: white;
+      }
+
+      .sosial {
+        margin: 40px;
+        margin-left: 350px;
+
+        a {
+          margin-left: 10px;
+        }
+
+        h3 {
+          color: white;
+        }
+      }
+    }
+  }
+
+
+
+  .carusel {
+    
+    h2 {
+      margin: 40px;
+      
+    }
+
+    h1 {
+      border-bottom: 2px solid rgb(218, 216, 216);
+    }
+
+    .img1 {
+      height: 200px;
+      background-color: white;
+      cursor: pointer;
+      border-radius: 20px;
+
+
+      img {
+        padding-top: 80px;
+      }
+    }
+  }
+
+  .slick-prev {
+    background-color: red;
+    z-index: 1;
+    margin-left: 40px;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+
+
+  }
+
+  .slick-next {
+    background-color: red;
+    z-index: 1;
+    margin-right: 40px;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+  }
+
+  #active {
+    opacity: 1 !important;
+    transform: translate(100%, 8%);
+    z-index: 2;
+    background-color: white;
+    border-left: none;
+
+
+  }
+
+
+
+
+  #App {
+    font-family: sans-serif;
+    height: 100vh;
+  }
+
+  #page-wrap {
+    text-align: center;
+    overflow: auto;
+  }
+
+  .bm-item {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+  }
+
+  .bm-item:hover {
+    color: white;
+  }
+
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    bottom: 10px;
+
+
+  }
+
+  .bm-burger-bars {
+    background: black;
+    margin-top: -5px;
+  }
+
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+
+  }
+
+  .bm-cross {
+    background: black;
+
+  }
+
+  .bm-menu {
+    background: white;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    margin-left: -60px;
+  }
+
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  .bm-item-list {
+    color: #b8b7ad;
+  }
+
+
+  .overflowMenu {
+
+    height: 550px;
+    width: 360px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+
+
+
+    .phones {
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+      margin: 20px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+    }
+
+    .watches {
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+      margin: 20px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+    }
+
+    .tv {
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          padding: 0;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+      transform: translate(5%);
+      margin: 10px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+    }
+
+    .computers {
+
+      a {
+        button {
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          padding-left: 12px;
+          transition: padding-left .3s cubic-bezier(.29, .04, .23, 1);
+
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+      margin: 20px;
+      transform: translate(-5%);
+      border-bottom: 1px solid rgb(133, 133, 133);
+
+    }
+  }
+
+
+  .OverflowPhonesMenu {
+
+  width: 300px;
+  height: 600px;
+
+ transform: translate(0%,-999999999%);
+
+
+    .smartphones {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 70px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          border: none;
+      
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .plansetler {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .qulaqliqlar {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .e-books {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+         
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .home-phones {
+      height: 33px;
+      margin: 11px;
+      margin-left: 30px;
+
+      a {
+
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .numbers {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+  }
+
+  .OverflowWhatchesMenu {
+
+    transform: translate(0%,-999999999%);
+    width: 300px;
+    height: 600px;
+
+
+
+    .SmartWhatces {
+      
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 70px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          border: none;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .SmartBracelet {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .Whatches {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .ChildrensWhatches {
+      height: 33px;
+      margin: 11px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+      margin-left: 30px;
+
+      a {
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+        }
+
+        text-decoration: none;
+        color: black;
+      }
+
+
+    }
+
+    .Accessories {
+      height: 33px;
+      margin: 11px;
+      margin-left: 30px;
+      border-bottom: 1px solid rgb(133, 133, 133);
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        button {
+          margin-top: 27px;
+          outline: none;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: transparent;
+          height: 100%;
+          border: none;
+          
+        }
+
+        
+      }
+
+
+    }
+
+
+  }
+  #activeMenu {
+    opacity: 1 !important;
+    transform: translate(90%, -6.8%);
+    z-index: 2;
+    background-color: white;
+
+
+
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+
+  .fa-shopping-bag{
+font-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+   z-index: 3;
+  }
+  .shop{left: 0;
+    background-color: white;
+    width: 430px;
+    height: 350px;
+    margin-left: -250px;
+    margin-top: 10px;
+    overflow: auto;
+  
+  }
+
+
+.top-props{   
+  height: 570px;
+  
+  
+  .card{
+    
+    width: 25rem;
+ height: 47rem;
+    border-radius: 25px;
+     &:hover{
+        img{
+          height: 260px;
+        }
+      height:49rem;
+    }
+    img{
+      cursor: pointer;
+      height: 750px;
+      
+    
+     
+    } 
+    
+  }
+  .card-body{
+    button{
+      &:hover{
+        background-color: green;
+      }
+    }
+  }
+}
+
+}

@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "id": 9,
+      "name": "Huawei",
+      "link": "https://kontakt.az/resize/display?url=https%3A%2F%2Fkontakt.az%2Fresize%2Fdisplay%2Fresize%2F250x250%2Fwhite.png%3Fop%3Dop%3Aflat%2Bpath%3Amedia%2Fcatalog%2Fproduct%2Fn%2Fo%2Fnova_9_se_1.png%2Bpos%3A0.0.100.100&op=resize&fmt=webp",
+      "price": 1129
+    },
+    {
+      "id": 10,
+      "name": "Iphone 13",
+      "link": "https://kontakt.az/resize/display?url=https%3A%2F%2Fkontakt.az%2Fresize%2Fdisplay%2Fresize%2F250x250%2Fwhite.png%3Fop%3Dop%3Aflat%2Bpath%3Amedia%2Fcatalog%2Fproduct%2Fn%2Fe%2Fnew_project_-_2022-03-23t192219.249_1_3_1__1__2.png%2Bpos%3A0.0.100.100&op=resize&fmt=webp",
+      "price": 839
+    },
+    {
+      "id": 11,
+      "name": "Huawei",
+      "link": "https://kontakt.az/resize/display?url=https%3A%2F%2Fkontakt.az%2Fresize%2Fdisplay%2Fresize%2F250x250%2Fwhite.png%3Fop%3Dop%3Aflat%2Bpath%3Amedia%2Fcatalog%2Fproduct%2F1%2F3%2F130451563.png%2Bpos%3A0.0.100.100&op=resize&fmt=webp",
+      "price": 779
+    },
+    {
+      "id": 12,
+      "name": "Iphone 6",
+      "link": "https://kontakt.az/resize/display?url=https%3A%2F%2Fkontakt.az%2Fresize%2Fdisplay%2Fresize%2F250x250%2Fwhite.png%3Fop%3Dop%3Aflat%2Bpath%3Amedia%2Fcatalog%2Fproduct%2Fn%2Fe%2Fnew_project_-_2022-03-25t114207.814_1_.png%2Bpos%3A0.0.100.100&op=resize&fmt=webp",
+      "price": 699
+    }
+  ]
+}
