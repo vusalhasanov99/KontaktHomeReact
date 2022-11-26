@@ -15,7 +15,7 @@ function Carousel() {
           slidesToScroll: 1
         };
   return (
-    <div className='container'>
+    <div className='container' style={{width:"950px"}}>
       <Slider style={{width:"950px",}} {...settings}>
           <div >
           
